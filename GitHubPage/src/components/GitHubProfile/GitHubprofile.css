@@ -1,0 +1,48 @@
+main{
+    padding: 0 10%;
+    color: #CDD5E0;
+    display: flex;
+    flex-direction: column;
+}
+.container-details{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:  5px 10px;
+}
+
+.details-img{
+    width: 130px;
+    height: 120px;
+    background-color: #364153;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -55px;
+}
+
+.details-img img{
+    width: 100%;
+    height: 100%;
+}
+.account-info{
+    flex-grow: 1;
+    padding-left: 25px;
+    gap: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-info h3{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+
+.container-info p{
+    color: #4A5567;
+    margin: 0;
+}
+
